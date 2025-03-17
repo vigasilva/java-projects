@@ -11,5 +11,6 @@ public class Main {
         int age = scanner.nextInt(); // asking for user age
 
         System.out.println("Hello, " + name + "! You are " + age + " years old."); // greets the user based on gathered information
+        scanner.close();
     }
 }
